@@ -1,0 +1,24 @@
+* {
+    font-family: "Century Schoolbook L";
+    font-style: italic;
+}
+
+#Projects {
+    background-color: darkorange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1 a{
+    
+    font-size: 35pt;
+    margin-left: 10pt;
+    color: white;
+    text-decoration: none;
+}
+
+.List {
+    margin-top: 95pt;
+}

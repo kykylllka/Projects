@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projects QQ</title>
+        <link rel="stylesheet" href="{% static 'news/style.css' %}">
+    </head>
+    <body>
+        <div id="Projects">
+            <h1>
+                <a href="/">My Projects</a>
+            </h1>
+        </div>
+
+        <div class="List">
+                {% for project in projects %}
+                      <td><tr>{{ project.title }}</tr>
+                     <tr>  {{ project.description }}</tr></td>
+                {% endfor %}
+
+        </div>
+    </body>
+</html>
+
+
