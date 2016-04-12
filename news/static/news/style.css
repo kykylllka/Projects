@@ -1,7 +1,6 @@
 * {
  font-family: "Century Schoolbook L";
     font-style: italic;
-
 }
 
 
@@ -25,6 +24,11 @@ h1 a{
     text-decoration: none;
 }
 
-.List {
+.marketing {
+    margin-top: 60pt;
+}
 
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
 }
