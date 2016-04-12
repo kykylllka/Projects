@@ -3,3 +3,4 @@ from .models import Projects
 
 
 admin.site.register(Projects)
+
